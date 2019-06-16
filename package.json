@@ -1,6 +1,6 @@
 {
   "name": "get-notion-data",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Get public Notion page's data.",
   "main": "index.js",
   "scripts": {

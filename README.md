@@ -8,7 +8,7 @@ $ npm i -S get-notion-data
 
 ## Usage
 ```js
-const getNotionData = require('.');
+const getNotionData = require('get-notion-data');
 
 getNotionData(/* YOUR NOTION PAGE ID */).then((data) => {
   console.log(JSON.stringify(data, null, 2));
