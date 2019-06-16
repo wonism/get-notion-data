@@ -15,11 +15,10 @@ getNotionData(/* YOUR NOTION PAGE ID */).then((data) => {
 });
 ```
 
-First of all, you should make page public. Then you can get the ID of the page.
+<div>First of all, you should make page public. Then you can get the ID of the page.</div>
+<div>If the public Notion page's URL is https://www.notion.so/Personal-Home-db45cd2e7c694c3493c97f2376ab184a</div>
+<div>You need to copy `db45cd2e7c694c3493c97f2376ab184a`. and make it to follow below format.</div>
 
-If the public Notion page's URL is https://www.notion.so/Personal-Home-db45cd2e7c694c3493c97f2376ab184a
-
-You need to copy `db45cd2e7c694c3493c97f2376ab184a`. and make it has below format.
 ```
 XXXXXXXX-XXXX-XXXX-XXXX-XXXXXXXXXXXX
 X{8}-X{4}-X{4}-X{4}-X{12}

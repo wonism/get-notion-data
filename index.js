@@ -40,15 +40,15 @@ const rpc = async (fnName, body = {}) => {
 }
 
 const queryCollection = ({ collectionId, collectionViewId, loader = {}, query = {} }) => {
-  const userLocale = process.env.LANG ? process.env.LANG.slice(0, 2) : 'ko';
-  const userTimeZone = process.env.TZ || 'Asia/Seoul';
+  const defaultUserLocale = process.env.LANG ? process.env.LANG.slice(0, 2) : 'ko';
+  const defaultUserTimeZone = process.env.TZ || 'Asia/Seoul';
 
   const {
     limit = 70,
     loadContentCover = true,
     type = 'table',
-    userLocale,
-    userTimeZone,
+    userLocale = defaultUserLocale,
+    userTimeZone = defaultUserTimeZone,
   } = loader;
 
   const {
